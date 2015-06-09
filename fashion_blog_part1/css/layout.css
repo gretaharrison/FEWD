@@ -3,82 +3,26 @@
 /*******************************************/
 
 
-.titles {
-  width: 650px;
-  padding: 68px 15px 10px 58px;
-}
-
-.titles h2 {
-  float: right;
-}
-
-.blog-title h2 {
-  margin-bottom: 20px;
-}
 
 /******************************************
 /* NAVIGATION
 /*******************************************/
 
-nav a {
-  padding: 20px 15px;
-  display: inline-block;
-  width: 180px;
-  text-align: center;
-  font-size: 1.5em;
-  margin-right: -2px;
-}
 
-nav {
-  margin-left: 58px;
-  margin-right: 58px;
-
-  white-space: nowrap;
-
-}
 
 /******************************************
 /* BLOG POSTS
 /*******************************************/
 
-article {
-  margin-left: 58px;
-}
 
-.blogpost {
-  width: 60%;
-  margin-left: 0;
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
-
-.first-letter p {
-  float: left;
-}
-
-.dates {
-  margin-top: 65px;
-}
 
 
 /******************************************
 /* ABOUT
 /*******************************************/
 
-.about h3 {
-  margin-top: 15px;
-  padding-bottom: 15px;
-}
 
-.about p {
-  margin-right: 30px;
-}
 
-.about {
-  float: right;
-  width: 35%;
-}
-
-.about-link a {
-  margin-right: 30px;
-}
+/******************************************
+/* POPULAR POSTS
+/*******************************************/
