@@ -1,0 +1,55 @@
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firefox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+#container {
+  width: 1080px;
+}
+
+h1 {
+  padding: 70px 15px 0 55px;
+}
+
+.titles h1 a {
+  text-decoration: none;
+  font-size: 55px;
+  font-family: 'Lato' sans-serif;
+  font-weight: 300;
+  color: #E80f2B;
+}
+
+h2 {
+
+}
+
+.titles h2 {
+  font-size: 28px;
+  font-weight: 300;
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+
+}
