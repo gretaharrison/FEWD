@@ -1,0 +1,134 @@
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firefox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+#container {
+  width: 1080px;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  color: #0B0014;
+  background-color: #F5E9E2;
+}
+
+body a {
+  text-decoration: none;
+  color: #0B0014;
+}
+
+
+/******************************************
+/* HEADER
+/*******************************************/
+
+#title h1 {
+  font-family: 'Poiret One', cursive;
+  font-size: 4em;
+  margin-left: 40px;
+  color: #F5E9E2;
+  padding: 5px 0;
+}
+
+#title {
+  background-color: #D44D5C;
+}
+
+
+/******************************************
+/* NAVIGATION
+/*******************************************/
+
+#button-one {
+  display: inline-block;
+}
+
+#button-two {
+  display: inline-block;
+}
+
+
+
+
+/******************************************
+/* IMAGE
+/*******************************************/
+
+#greta-pic img {
+  border-radius: 50%;
+  float: right;
+  padding: 20px;
+  max-width: 400px;
+}
+
+
+/******************************************
+/* RESUME BODY
+/*******************************************/
+
+#resume-body {
+  margin-left: 40px;
+  width: 70%;
+}
+
+#resume-body h2 {
+  color: #0B0014;
+  font-family: 'Poiret One', cursive;
+  font-size: 2.3em;
+  margin-bottom: -4px;
+}
+
+#resume-body p, h3, h4, ul, li {
+  color: #773344;
+}
+
+#resume-body h3 {
+  font-family: 'Raleway', sans-serif;
+  line-height: 5px;
+  font-weight: 700;
+}
+
+#resume-body h4 {
+  font-family: 'Raleway', sans-serif;
+  line-height: 5px;
+  font-weight: 600;
+}
+
+
+#resume-body a {
+  color: #D44D5C;
+  font-weight: 300;
+}
+
+.individual-job {
+  padding-bottom: 15px;
+  padding-top: 10px;
+  border-bottom: 2px dotted #D44D5C;
+}
+
+/******************************************
+/* EDUCATION AND CONTACT
+/*******************************************/
+
+.schools {
+  padding-bottom: 15px;
+  padding-top: 10px;
+  border-bottom: 2px dotted #D44D5C;
+}
+
+
+/******************************************
+/* ABOUT
+/*******************************************/
+
+.about-text p {
+  font-size: 22px;
+}
