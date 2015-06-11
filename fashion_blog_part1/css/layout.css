@@ -2,27 +2,130 @@
 /* LAYOUT
 /*******************************************/
 
+/******************************************
+/* BASE
+/*******************************************/
 
+#container {
+  max-width: 1600px;
+}
+
+.titles h2 {
+  float: right;
+}
+
+.blog-title h2 {
+  margin-bottom: 20px;
+}
+
+.titles {
+  width: 650px;
+  padding: 68px 15px 10px 58px;
+}
 
 /******************************************
 /* NAVIGATION
 /*******************************************/
 
-
+nav {
+  margin-left: 58px;
+  margin-right: 58px;
+  white-space: nowrap;
+}
 
 /******************************************
 /* BLOG POSTS
 /*******************************************/
 
+img {
+  max-width: 700px;
+}
 
+.blog-container {
+  max-width: 700px;
+  position: relative;
+  margin-left: 58px;
+}
+
+.dates {
+  margin-top: 65px;
+}
+
+.dates h3 {
+  margin-bottom: 20px;
+}
+
+.titles h2 {
+  padding-top: 20px;
+}
+
+.article-text {
+  /*margin-left: 58px;*/
+  display: inline;
+}
+
+.first-letter p {
+  float: left;
+  padding-right: 5px;
+  /*display: inline-block;*/
+}
+
+.blogpost {
+  /*margin-left: 58px;*/
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.cont-link a {
+  text-decoration: none;
+  float: right;
+  color: red;
+  padding-bottom: 50px;
+
+}
 
 
 /******************************************
-/* ABOUT
+/* SIDEBAR
 /*******************************************/
 
+/*#sidebar-container {
+  max-width: 250px;
+  float: right;
+}*/
+.about {
+  clear: both;
+  float: right;
+  width: 30%;
+  border-bottom: 1px solid #CDCDCD;
+  margin-right: 20px;
+}
 
 
-/******************************************
-/* POPULAR POSTS
-/*******************************************/
+.about h3 {
+  margin-top: 15px;
+  padding-bottom: 15px;
+}
+
+.about-link a {
+  float: right;
+  padding-bottom: 50px;
+  margin-right: 20px;
+}
+
+.popular-posts {
+  clear: both;
+  float: right;
+  width: 30%;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.popular-posts ul {
+  margin-left: 30px;
+}
+
+.popular-posts h3 {
+  margin-top: 25px;
+  padding-bottom: 15px;
+}

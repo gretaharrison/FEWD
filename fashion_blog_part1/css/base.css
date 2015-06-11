@@ -9,18 +9,6 @@
 /* BASE STYLES
 /*******************************************/
 
-#container {
-  width: 1200px;
-}
-
-.blog-container {
-  width: 720px;
-}
-
-.sidebar-container {
-  width: 300px;
-}
-
 
 body {
   font-family: 'Lato', sans-serif;
@@ -35,14 +23,6 @@ body {
   padding: 68px 15px 10px 58px;
 }
 
-.titles h2 {
-  float: right;
-}
-
-.blog-title h2 {
-  margin-bottom: 20px;
-}
-
 h1 a {
   text-decoration: none;
   font-size: 55px;
@@ -52,15 +32,9 @@ h1 a {
 }
 
 
-
 /******************************************
 /* NAVIGATION
 /*******************************************/
-nav {
-  margin-left: 58px;
-  margin-right: 58px;
-  white-space: nowrap;
-}
 
 nav a {
   background-color: black;
@@ -81,39 +55,23 @@ nav a {
 /* ABOUT
 /*******************************************/
 
-.about {
-  float: right;
-  max-width: 30%;
-  border-bottom: 1px solid #CDCDCD;
-}
 
 .about p {
   font-weight: 300;
   line-height: 2.0em;
   color: #888888;
-  margin-right: 30px;
 }
 
 .about h3 {
   color: #888888;
   font-weight: 700;
   font-size: 1.2em;
-  margin-top: 15px;
-  padding-bottom: 15px;
 }
 
 .about-link a {
   text-decoration: none;
-  float: right;
   color: red;
-  padding-bottom: 50px;
-  margin-right: 30px;
-  /*margin-left: 30px;*/
 }
-
-/******************************************
-/* AD
-/*******************************************/
 
 
 /******************************************
@@ -121,9 +79,6 @@ nav a {
 /*******************************************/
 
 .popular-posts {
-  clear: both;
-  float: right;
-  width: 30%;
   border-bottom: 1px solid #CDCDCD;
 }
 
@@ -131,7 +86,6 @@ nav a {
   font-weight: 300;
   line-height: 2.0em;
   list-style-type: disc;
-  margin-left: 30px;
 }
 
 .popular-posts a {
@@ -143,8 +97,6 @@ nav a {
   color: #888888;
   font-weight: 700;
   font-size: 1.2em;
-  margin-top: 25px;
-  padding-bottom: 15px;
 }
 
 .about-link a {
@@ -155,24 +107,16 @@ nav a {
   margin-right: 30px;
 }
 
-
 /******************************************
 /* BLOG POSTS
 /*******************************************/
 
-img {
-  max-width: 720px;
-}
 
-.dates {
-  margin-top: 65px;
-}
 
 .dates h3 {
   font-size: 2.2em;
   font-weight: 300;
   color: #CDCDCD;
-  margin-bottom: 20px;
 }
 
 .titles h2 {
@@ -180,7 +124,6 @@ img {
   font-weight: 300;
   font-family: 'Lato', sans-serif;
   color: #949494;
-  padding-top: 20px;
 }
 
 .blog-title h2 a {
@@ -191,38 +134,22 @@ img {
 }
 
 .first-letter p {
-  float: left;
   font-size: 6em;
   font-weight: 300;
-  padding-right: 5px;
   color: #CDCDCD;
-
-}
-
-article {
-  margin-left: 58px;
-  display: inline-block;
 }
 
 .article-text p {
   font-size: 1em;
   font-weight: 300;
   line-height: 2.0em;
-
 }
 
 .blogpost {
-  /*max-width: 60%;*/
-  margin-left: 0;
-  margin-top: 30px;
-  margin-bottom: 30px;
   border-bottom: 1px solid #CDCDCD;
 }
 
 .cont-link a {
   text-decoration: none;
-  float: right;
   color: red;
-  padding-bottom: 50px;
-
 }
