@@ -32,6 +32,7 @@ h1 a {
 }
 
 
+
 /******************************************
 /* NAVIGATION
 /*******************************************/
@@ -113,7 +114,13 @@ nav a {
 
 
 
-.dates h3 {
+.date1 h3 {
+  font-size: 2.2em;
+  font-weight: 300;
+  color: #CDCDCD;
+}
+
+.date2 h3 {
   font-size: 2.2em;
   font-weight: 300;
   color: #CDCDCD;
@@ -126,7 +133,14 @@ nav a {
   color: #949494;
 }
 
-.blog-title h2 a {
+.blog-title1 h2 a {
+  font-size: 2.2em;
+  font-weight: 300;
+  text-decoration: none;
+  color: #000;
+}
+
+.blog-title2 h2 a {
   font-size: 2.2em;
   font-weight: 300;
   text-decoration: none;
@@ -139,7 +153,13 @@ nav a {
   color: #CDCDCD;
 }
 
-.article-text p {
+.article-text1 p {
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 2.0em;
+}
+
+.article-text2 p {
   font-size: 1em;
   font-weight: 300;
   line-height: 2.0em;

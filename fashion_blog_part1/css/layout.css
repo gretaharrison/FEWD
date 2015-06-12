@@ -14,7 +14,11 @@
   float: right;
 }
 
-.blog-title h2 {
+.blog-title1 h2 {
+  margin-bottom: 20px;
+}
+
+.blog-title2 h2 {
   margin-bottom: 20px;
 }
 
@@ -41,17 +45,33 @@ img {
   max-width: 700px;
 }
 
-.blog-container {
+.blog-container1 {
+  clear: none;
   max-width: 700px;
   position: relative;
   margin-left: 58px;
 }
 
-.dates {
+.blog-container2 {
+  clear: none;
+  max-width: 700px;
+  position: relative;
+  margin-left: 58px;
+}
+
+.date1 {
   margin-top: 65px;
 }
 
-.dates h3 {
+.date2 {
+  margin-top: 65px;
+}
+
+.date1 h3 {
+  margin-bottom: 20px;
+}
+
+.date2 h3 {
   margin-bottom: 20px;
 }
 
@@ -59,29 +79,36 @@ img {
   padding-top: 20px;
 }
 
-.article-text {
-  /*margin-left: 58px;*/
+.article-text1 {
   display: inline;
 }
 
-.first-letter p {
+.article-text2 {
+  display: inline;
+}
+
+.first-letter {
+  clear: none;
   float: left;
-  padding-right: 5px;
-  /*display: inline-block;*/
 }
 
 .blogpost {
-  /*margin-left: 58px;*/
   margin-top: 30px;
-  margin-bottom: 30px;
+  padding-bottom: 35px;
 }
 
 .cont-link a {
   text-decoration: none;
-  float: right;
+  /*float: right;*/
+  margin-left: 550px;
   color: red;
   padding-bottom: 50px;
 
+}
+
+.first-letter {
+  /*clear: none;*/
+  float: left;
 }
 
 
@@ -89,21 +116,20 @@ img {
 /* SIDEBAR
 /*******************************************/
 
-/*#sidebar-container {
-  max-width: 250px;
+#sidebar-container {
+  max-width: 300px;
   float: right;
-}*/
+  margin: 80px 30px 0 0;
+}
 .about {
   clear: both;
-  float: right;
-  width: 30%;
+  /*float: right;*/
+  /*width: 30%;*/
   border-bottom: 1px solid #CDCDCD;
-  margin-right: 20px;
 }
 
-
 .about h3 {
-  margin-top: 15px;
+  margin-top: 45px;
   padding-bottom: 15px;
 }
 
@@ -116,9 +142,9 @@ img {
 .popular-posts {
   clear: both;
   float: right;
-  width: 30%;
-  margin-right: 20px;
-  margin-left: 20px;
+  /*width: 30%;*/
+  /*margin-right: 20px;
+  margin-left: 20px;*/
 }
 
 .popular-posts ul {
