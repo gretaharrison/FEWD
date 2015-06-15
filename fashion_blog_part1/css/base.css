@@ -28,8 +28,7 @@ h1 a {
   font-size: 55px;
   font-family: 'Lato' sans-serif;
   font-weight: 300;
-  /*color: #E80f2B;*/
-  color: blue;
+  color: #E80f2B;
 }
 
 
@@ -173,4 +172,29 @@ nav a {
 .cont-link a {
   text-decoration: none;
   color: red;
+}
+
+
+/******************************************
+/* FOOTER
+/*******************************************/
+
+li {
+  display: inline;
+  padding-right: 3px;
+  padding-left: 3px;
+  color: red;
+}
+
+ul {
+  margin: 20px 0 20px 58px;
+}
+
+li+li { border-left: 1px solid #CDCDCD;
+}
+
+#footer-text {
+  color: #CDCDCD;
+  margin-left: 58px;
+  margin-bottom: 50px;
 }
