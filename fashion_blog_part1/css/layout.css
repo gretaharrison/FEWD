@@ -7,12 +7,11 @@
 /*******************************************/
 
 #container {
-  max-width: 1600px;
+  width: 1200px;
 }
 
 .titles h2 {
   float: right;
-  color: red;
 }
 
 .blog-title1 h2 {
@@ -120,7 +119,7 @@ img {
 #sidebar-container {
   max-width: 300px;
   float: right;
-  margin: 80px 30px 0 0;
+  margin: 80px 60px 0 0;
 }
 .about {
   clear: both;
@@ -156,4 +155,22 @@ img {
 .popular-posts h3 {
   margin-top: 25px;
   padding-bottom: 15px;
+}
+
+/******************************************
+/* FOOTER
+/*******************************************/
+
+.footer-nav li {
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+.footer-nav {
+  margin: 60px 0 20px 58px;
+}
+
+#footer-text {
+  margin-left: 58px;
+  margin-bottom: 50px;
 }
