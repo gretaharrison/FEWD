@@ -22,10 +22,10 @@ this.createButtons = function() {
 
 
   rightButton.addEventListener('mousedown', function(){
-  if(position > (width * (slides.length - 1)) * -1) {
-    position = position - width;
-    wrapper.style.marginLeft = position + 'px';
-  }
+    if(position > (width * (slides.length - 1)) * -1) {
+      position = position - width;
+      wrapper.style.marginLeft = position + 'px';
+    }
 
 });
 
@@ -42,12 +42,11 @@ this.createButtons = function() {
 this.resize = function() {
 
   width = window.innerWidth;
-
   wrapper.style.width = slides.length * width + 'px';
   wrapper.style.height = '100%';
 
   for(var index=0; index<slides.length; index++) {
-  slides[index].style.width = width + 'px';
+    slides[index].style.width = width + 'px';
   }
 
 };
