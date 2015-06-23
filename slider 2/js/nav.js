@@ -27,5 +27,11 @@ Element.prototype.nav = function() {
 
   };
 
-  this.createButtons();
-}
+
+  this.init = function() {
+    this.createButtons();
+  };
+
+  this.init();
+
+};
