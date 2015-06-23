@@ -20,11 +20,13 @@
 .hamburger {
   background-image: url('../../img/hamburger.svg');
   background-size: cover;
-  width: 30px;
-  height: 30px;
+  width: 44px;
+  height: 44px;
   /*margin-top: 0;*/
   position: absolute;
-  top: 5px;
-  left: 5px;
+  top: 10px;
+  left: 10px;
   z-index: 1;
+  background-size: 32px 32px;
+  background-position: 4px 4px;
 }
