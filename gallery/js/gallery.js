@@ -6,6 +6,11 @@ Element.prototype.Gallery = function(){
   // {}; means "empty object"
   // Define global variables
 
+  this.singlePhoto = function(ev){
+    console.log(ev);
+  };
+
+
   this.layoutPhotos = function(){
       // add logic for each photo in here
 
@@ -25,11 +30,19 @@ Element.prototype.Gallery = function(){
         photo.rating+'</div></div>'+
         '</div>';
 
+        li.addEventListener('click', gallery.singlePhoto);
+
         ul.appendChild(li);
 
       });
 
   };
+
+  this.singlePhoto = function(){
+    // link to single photo css using innerHTML
+
+  };
+
 
 
 
