@@ -1,3 +1,3 @@
-Hey - Fashion Blog is in the fashion_blog_part1 folder.
+Hey - Nav bar homework is in the "slider 2" file.
 
-Thx :)
+thx - Greta Harrison

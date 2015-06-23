@@ -1,16 +1,30 @@
 
 #nav {
-  width: 30%;
+  width: 20%;
   height: 100%;
-  background-color: gray;
+  background-color: #575757;
   position: absolute;
 }
 
 .nav-item {
   color: white;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: 100;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   border-bottom: solid white 1px;
   padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.hamburger {
+  background-image: url('../../img/hamburger.svg');
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  /*margin-top: 0;*/
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: 1;
 }
