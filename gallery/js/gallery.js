@@ -30,26 +30,30 @@ Element.prototype.Gallery = function(){
         photo.rating+'</div></div>'+
         '</div>';
 
-        this.singlePhoto = function(){
-          // link to single photo css using innerHTML
-        li.addEventListener('click', gallery.singlePhoto);
-        li.style.backgroundImage = 'url("'+photo.image_url+'")';
-        li.style.backgroundSize = 'cover'
-        singlePhoto.innerHTML = '<div class="single-photo">'
-        li.innerHTML = '<div class="single-photo"><h2>'+
-        photo.name+
-        '</h2><h3>'+
-        photo.user.fullname+
-        '</h3></div><div class="stats"><div>'+
-        photo.rating+'</div></div>'+
-        '</div>';
-          };
+        li.addEventListener('click', function()
+        {
+
+          li.innerHTML = '<div class="single-photo"></div>';
+          li.style.single-photo;
+          li.style.width = '100%';
+          li.style.backgroundSize = 'cover';
+
+
+
+        });
 
         ul.appendChild(li);
 
       });
 
   };
+
+  this.singlePhoto = function(){
+    // link to single photo css using innerHTML
+
+  };
+
+
 
 
   this.connect = function(){
