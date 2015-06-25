@@ -13,11 +13,17 @@ Element.prototype.Gallery = function(){
     section.innerHTML = ev.target.innerHTML;
     section.style.backgroundImage = ev.target.style.backgroundImage;
 
+    var p = document.createElement('p');
+    p.innerHTML = ev.target.dataset.description;
+
     var closeButton = document.createElement('div');
     closeButton.classList.add('close');
+
     closeButton.addEventListener('click',function() {
       section.style.display = 'none';
     });
+
+    section.children[0].appendChild(p);
     section.appendChild(closeButton);
     container.appendChild(section);
   };
@@ -34,6 +40,8 @@ Element.prototype.Gallery = function(){
       '</h6></div><div class="stats"><div>'+
       photo.rating+'</div></div>'+
       '</div>';
+
+      li.dataset.description = photo.description;
       // add single photo page here
       li.addEventListener('mousedown',gallery.singlePhoto);
       ul.appendChild(li);
