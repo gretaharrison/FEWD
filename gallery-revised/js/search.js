@@ -1,0 +1,6 @@
+Element.prototype.Search = function () {
+
+
+
+
+};
