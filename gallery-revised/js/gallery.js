@@ -54,7 +54,7 @@ Element.prototype.Gallery = function(){
                 '</h6></div><div class="stats"><div>'+
                 photo.rating+'</div></div>'+
                 '</div>';
-
+//use in hw (below) also set tags as data attributes
           li.dataset.description = photo.description;
 
           li.addEventListener('click',gallery.singlePhoto);
