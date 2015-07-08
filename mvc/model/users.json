@@ -1,0 +1,38 @@
+
+{
+  "users":[{
+    "name":"Greta",
+    "age": "28",
+    "occupation": "Ecommerce Director"
+  },
+  {
+    "name":"Garth",
+    "age": "33",
+    "occupation": "Scientist"
+  },
+  {
+    "name":"Brent",
+    "age": "35",
+    "occupation": "Real Estate Developer"
+  },
+  {
+    "name":"Bethy",
+    "age": "28",
+    "occupation": "Executive Assistant"
+  },
+  {
+    "name":"Lauren",
+    "age": "27",
+    "occupation": "Interior Designer"
+  },
+  {
+    "name":"John",
+    "age": "76",
+    "occupation": "Nuclear Chemist"
+  },
+  {
+    "name":"Susan",
+    "age": "64",
+    "occupation": "Hematologist"
+  }]
+}
