@@ -29,10 +29,5 @@
     "name":"John",
     "age": "76",
     "occupation": "Nuclear Chemist"
-  },
-  {
-    "name":"Susan",
-    "age": "64",
-    "occupation": "Hematologist"
   }]
 }

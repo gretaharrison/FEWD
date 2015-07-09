@@ -18,6 +18,13 @@ var View = function(elem, parent, className) {
 View.prototype = {
   setContent : function(content) { //property on an object
     this.element.innerHTML = content; //the argument that is being passed through method on prototype
+  },
+  fadeViewIn: function(){
+    var self = this;
+    setTimeout(function(){
+      self.element.classList.add('active');
+    },1000); //1000 milliseconds equals 1 second.
+
   }
 };
 
@@ -32,8 +39,9 @@ var Controller = function() {
 Controller.prototype = {
   createView: function(){ //delivers model to the view
     this.model.forEach(function(user){ //creating a new view each time object runs
-      var v = new View('div', document.body, 'user');
+      var v = new View('div', document.getElementById('container'), 'user');
       v.setContent('<h3>'+user.model.name+'</h3><h5>'+user.model.age+'</h5><h5>'+user.model.occupation+'</h5>'); //sets inner html, as we are looping through all the users in model
+      v.fadeViewIn();
     });
   },
   fetchUsers: function() {

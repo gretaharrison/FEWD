@@ -9,7 +9,7 @@ body {
 }
 
 table {
-  perspective: 100;
+  -webkit-perspective: 100;
 }
 
 .card {
@@ -27,7 +27,7 @@ table {
 }
 
 .card:hover {
-  transform: rotateX(-180deg);
+  transform: rotateX(180deg);
 }
 
 .card .front .suit {
@@ -37,20 +37,21 @@ table {
   background-color: white;
 }
 
+.card .front {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  -webkit-backface-visibility: hidden;
+  transform: rotateX(180deg);
+}
+
 .back {
   position: absolute;
   -webkit-backface-visibility: hidden;
   width: 100%;
   height: 100%;
-}
-
-.front {
-  position: absolute;
-  background-color: white;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  transform: rotateX(-180deg);
 }
 
 h1 {
