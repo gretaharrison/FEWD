@@ -9,7 +9,7 @@ body {
 }
 
 table {
-  -webkit-perspective: 100;
+  -webkit-perspective: 100px;
 }
 
 .card {
@@ -28,13 +28,17 @@ table {
 
 .card:hover {
   transform: rotateX(180deg);
-}
-
-.card .front .suit {
   background-image: url("img/french-suits.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-color: white;
+}
+
+.card .front .suit {
+  background-image: url("img/french-suits.svg");
+  /*background-repeat: no-repeat;
+  background-size: contain;
+  background-color: white;*/
 }
 
 .card .front {
@@ -45,6 +49,8 @@ table {
   background-size: contain;
   -webkit-backface-visibility: hidden;
   transform: rotateX(180deg);
+
+  background-image: url("img/french-suits.svg");
 }
 
 .back {
@@ -52,6 +58,10 @@ table {
   -webkit-backface-visibility: hidden;
   width: 100%;
   height: 100%;
+}
+
+.card.heart .front {
+  background-image: url("img/french-suits.svg") -91px -45px;
 }
 
 h1 {
