@@ -1,3 +1,4 @@
+/* Box Model Hack */
 * {
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
@@ -6,69 +7,114 @@
 
 body {
   background-color: green;
+  perspective: 1000px;
+  transform-style: preserve-3d;
 }
 
-table {
-  -webkit-perspective: 100px;
-}
 
 .card {
+
   position: relative;
   float: left;
-  background-image: url("img/bicycle-back.jpg");
+  width: 150px;
+  height: 200px;
+  margin: 15px;
+  background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  margin: 15px;
-  width: 126px;
-  height: 176px;
-  background-repeat: no-repeat;
+  transform: rotateX(0deg);
+  transition: all 1s;
+  transform-style: preserve-3d;
   border-radius: 16px;
-  transition: all 0.9s;
 }
 
 .card:hover {
-  transform: rotateX(180deg);
-  background-image: url("img/french-suits.svg");
+  transform: rotateX(-180deg);
+}
+
+
+.front, .back {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 200px;
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
+  border-radius: 16px;
+}
+
+.front {
+  position: absolute;
+	transform: rotateX(-180deg);
   background-color: white;
+
 }
 
 .card .front .suit {
-  background-image: url("img/french-suits.svg");
-  /*background-repeat: no-repeat;
-  background-size: contain;
-  background-color: white;*/
-}
-
-.card .front {
   position: absolute;
-  background-color: white;
-  width: 100%;
-  height: 100%;
-  background-size: contain;
-  -webkit-backface-visibility: hidden;
-  transform: rotateX(180deg);
-
   background-image: url("img/french-suits.svg");
+  width: 100px;
+  height:100px;
+  background-repeat: no-repeat;
+  background-size: 200% 200%;
+  background-color: white;
+
 }
+
+.spade .front .suit {
+  background-position: 0 0;
+}
+
+.heart .front .suit {
+  background-position: -100px 0;
+}
+
+.club .front .suit {
+  background-position: -100px -100px;
+}
+
+.diamond .front .suit {
+  background-position: 0px -100px;
+}
+
 
 .back {
   position: absolute;
-  -webkit-backface-visibility: hidden;
-  width: 100%;
-  height: 100%;
+  background-image: url("img/bicycle-back.jpg");
 }
 
-.card.heart .front {
-  background-image: url("img/french-suits.svg") -91px -45px;
+
+
+#table {
+margin: 0 auto;
+
+}
+
+#front {
+
+}
+
+#container {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  width: 66.6666666667%;
+  height: auto;
+  margin-left: -33.333333333%;
+  -webkit-perspective: 500px;
+  -webkit-transform-syle: preserve-3d;
+}
+
+.suit {
+  border-radius: 16px;
+  margin-left: 25px;
+  margin-top: 45px;
 }
 
 h1 {
-  color: white;
-  text-align: center;
-}
-
-#table {
-  margin: 0 auto;
+text-align: center;
+color: white;
 }
